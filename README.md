@@ -3,9 +3,9 @@
  
 ## User Story
 ```
-AS a manager
-I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to emails and GitHub profiles
+AS A user, I want to be able to write and save notes
+I WANT to be able to delete notes I've written before
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 ## Functionality
@@ -21,3 +21,10 @@ When the user has completed building the team, the application will create an HT
 ## Get Started
 Download all files.
 Run npm install and node app.js
+
+# Techniques and Technologies Used
+The app is run using Node.js using "Inquirer," "FS," and "Jest' node modules. 
+
+This app was created using Object-Oriented Programming concepts, using classes and constructors to create "team member" objects based on information entered by the user. Files for different objects are also stored in separate .js files and passed among one another using module.exports and require.
+
+This app uses concepts from Test-Driven Development. Jest is used to perform tests on all the class constructors to ensure that they behave as expected.  The FS node module is used to generate an HTML file from strings written in JavaScript.

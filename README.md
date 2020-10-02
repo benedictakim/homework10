@@ -1,6 +1,6 @@
 # Team Profile Generator
- This is a software engineering team generator command line application. Using Node CLI, the user can input team member profiles and generate a team profile disply in HTML file. 
- 
+This is a software engineering team generator command line application. Using Node CLI, the user can input team member profiles and generate a team profile disply in HTML file.
+
 ## User Story
 ```
 AS A user, I want to be able to write and save notes
